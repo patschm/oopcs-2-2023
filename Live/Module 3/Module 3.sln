@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.4.33213.308
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CustomTypes", "CustomTypes\CustomTypes.csproj", "{6412FE08-9CBF-4DDA-8BB1-70E005357D13}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DeLampen", "DeLampen\DeLampen.csproj", "{E0207830-FA43-44A9-9248-0118855BC622}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{6412FE08-9CBF-4DDA-8BB1-70E005357D13}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6412FE08-9CBF-4DDA-8BB1-70E005357D13}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6412FE08-9CBF-4DDA-8BB1-70E005357D13}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6412FE08-9CBF-4DDA-8BB1-70E005357D13}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E0207830-FA43-44A9-9248-0118855BC622}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E0207830-FA43-44A9-9248-0118855BC622}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E0207830-FA43-44A9-9248-0118855BC622}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E0207830-FA43-44A9-9248-0118855BC622}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {4A4DEA57-D90C-4D34-993F-E75F0C65B9ED}
+	EndGlobalSection
+EndGlobal
