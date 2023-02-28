@@ -41,7 +41,7 @@
         }
 
         // Auto Generating Property
-        public ConsoleColor Kleur { get; set; }
+        public ConsoleColor Kleur { get; set; } = ConsoleColor.White;
 
 
         // Methods
