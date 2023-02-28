@@ -28,6 +28,7 @@ class Program
             LingoWord guess = AskWord(attempt);
             if (!IsValidInput(guess)) continue;
             // TODO 8: Use the AreEqual method from LingoWord here
+            guess.Show();
             if (wordToBeGuessed.AreEqual(guess))
             {
                 Console.WriteLine("Geraden");

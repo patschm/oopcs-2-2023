@@ -20,7 +20,7 @@ public class LingoCharacter
 
     public LingoCharacter(char c, int pos)
     {
-        this.position = pos;
-        this.character = c;
+        position = pos;
+        character = c;
     }
 }
