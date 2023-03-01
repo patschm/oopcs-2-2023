@@ -5,6 +5,10 @@ VisualStudioVersion = 17.5.33424.131
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Ajax", "Ajax\Ajax.csproj", "{49963CC6-D277-4BC6-A59A-26683E958C41}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ACME", "ACME\ACME.csproj", "{7F009FB2-43E9-47FC-9951-930C31560D5D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Ruimte", "Ruimte\Ruimte.csproj", "{C898676F-4C40-4978-8D6F-63A2B50C4050}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,6 +19,14 @@ Global
 		{49963CC6-D277-4BC6-A59A-26683E958C41}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{49963CC6-D277-4BC6-A59A-26683E958C41}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{49963CC6-D277-4BC6-A59A-26683E958C41}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7F009FB2-43E9-47FC-9951-930C31560D5D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7F009FB2-43E9-47FC-9951-930C31560D5D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7F009FB2-43E9-47FC-9951-930C31560D5D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7F009FB2-43E9-47FC-9951-930C31560D5D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C898676F-4C40-4978-8D6F-63A2B50C4050}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C898676F-4C40-4978-8D6F-63A2B50C4050}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C898676F-4C40-4978-8D6F-63A2B50C4050}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C898676F-4C40-4978-8D6F-63A2B50C4050}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

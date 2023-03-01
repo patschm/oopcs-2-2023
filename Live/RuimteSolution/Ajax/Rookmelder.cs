@@ -1,7 +1,11 @@
-﻿namespace Ajax
+﻿namespace Ajax;
+
+public class Rookmelder
 {
-    public class Class1
+
+    public void RookDetected()
     {
+        Console.WriteLine("Hmmm.Wasda?");
 
     }
 }
