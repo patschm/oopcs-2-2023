@@ -5,6 +5,10 @@ VisualStudioVersion = 17.5.33424.131
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HetCern", "HetCern\HetCern.csproj", "{95D690D3-BB2A-4450-857E-5F0BB77B4C20}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RadioDing", "RadioDing\RadioDing.csproj", "{C6100A1B-2713-4CD2-BE1A-1D881E889554}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Grafisch", "Grafisch\Grafisch.csproj", "{ADEDD5E5-4A6B-4C38-90CD-E5FFEA17DD82}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,6 +19,14 @@ Global
 		{95D690D3-BB2A-4450-857E-5F0BB77B4C20}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{95D690D3-BB2A-4450-857E-5F0BB77B4C20}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{95D690D3-BB2A-4450-857E-5F0BB77B4C20}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C6100A1B-2713-4CD2-BE1A-1D881E889554}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C6100A1B-2713-4CD2-BE1A-1D881E889554}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C6100A1B-2713-4CD2-BE1A-1D881E889554}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C6100A1B-2713-4CD2-BE1A-1D881E889554}.Release|Any CPU.Build.0 = Release|Any CPU
+		{ADEDD5E5-4A6B-4C38-90CD-E5FFEA17DD82}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{ADEDD5E5-4A6B-4C38-90CD-E5FFEA17DD82}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{ADEDD5E5-4A6B-4C38-90CD-E5FFEA17DD82}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{ADEDD5E5-4A6B-4C38-90CD-E5FFEA17DD82}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
