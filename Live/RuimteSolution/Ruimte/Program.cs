@@ -9,8 +9,10 @@ internal class Program
     {
         Rookmelder rm = new Rookmelder();
         Sprinkler sp1 = new Sprinkler();
+        Jan j = new Jan();
 
-
+        rm.SmokeDetected += sp1.SpuitWater;
+        rm.SmokeDetected += j.DoetIets;
         rm.RookDetected();
        // sp1.SpuitWater(); // Telt niet. Is fout!!!!!
     }
