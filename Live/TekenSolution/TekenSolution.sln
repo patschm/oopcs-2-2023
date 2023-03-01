@@ -3,9 +3,11 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.4.33213.308
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ShapesLibrary", "ShapesLibrary\ShapesLibrary.csproj", "{CE19EC24-5133-403F-A48E-13FECF864845}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ShapesLibrary", "ShapesLibrary\ShapesLibrary.csproj", "{CE19EC24-5133-403F-A48E-13FECF864845}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Tekenprogramma", "Tekenprogramma\Tekenprogramma.csproj", "{8F3B5370-9838-422B-8820-45C4D7D014ED}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Tekenprogramma", "Tekenprogramma\Tekenprogramma.csproj", "{8F3B5370-9838-422B-8820-45C4D7D014ED}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Gravies", "Gravies\Gravies.csproj", "{1E165B7F-965D-48D6-A2DB-AC7572004CC8}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -21,6 +23,10 @@ Global
 		{8F3B5370-9838-422B-8820-45C4D7D014ED}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{8F3B5370-9838-422B-8820-45C4D7D014ED}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{8F3B5370-9838-422B-8820-45C4D7D014ED}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1E165B7F-965D-48D6-A2DB-AC7572004CC8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1E165B7F-965D-48D6-A2DB-AC7572004CC8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1E165B7F-965D-48D6-A2DB-AC7572004CC8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1E165B7F-965D-48D6-A2DB-AC7572004CC8}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

@@ -1,7 +1,7 @@
 ﻿
 using System.Drawing;
 
-namespace ShapesLibrary
+namespace Tekenprogramma
 {
     static class ColorExtensions
     {

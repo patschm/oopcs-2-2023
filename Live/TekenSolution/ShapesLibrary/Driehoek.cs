@@ -6,11 +6,9 @@
         public int Hoogte { get; set; }
         public int Hoek { get; set; }
 
-        public override void Teken()
+        public override void Teken(IDevice device)
         {
-            Console.ForegroundColor = Kleur.ToConsoleColor();
-            Console.WriteLine(@$"Driehoek op positie {Positie} met lijndikte {Lijndikte}, met basis {Basis}, hoogte {Hoogte}, en hoek {Hoek}");
-            Console.ResetColor();
+           device.DrawTriangle(Positie, Kleur, Lijndikte, Basis, Hoogte, Hoek);
         }
     }
 }

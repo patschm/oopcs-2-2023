@@ -7,7 +7,7 @@ namespace Tekenprogramma
     {
         static void Main(string[] args)
         {
-
+            ConsoleDevice device = new ConsoleDevice();
             Canvas canvas = new Canvas();
 
             Cirkel c = new Cirkel
@@ -42,7 +42,7 @@ namespace Tekenprogramma
             };
 
             canvas.Add(dh);
-
+            canvas.Refresh(device);
             Console.ReadLine();
 
         }

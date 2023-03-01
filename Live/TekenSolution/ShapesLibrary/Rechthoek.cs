@@ -8,11 +8,9 @@ namespace ShapesLibrary
         public int Hoogte { get; set; }
         public int Breedte { get; set; }
 
-        public override void Teken()
+        public override void Teken(IDevice device)
         {
-            Console.ForegroundColor = Kleur.ToConsoleColor();
-            Console.WriteLine(@$"Rechthoek op positie {Positie} met lijndikte {Lijndikte}, met hoogte {Hoogte} en breedte {Breedte}");
-            Console.ResetColor();
+            device.DrawRectangle(Positie, Kleur, Lijndikte, Breedte, Hoogte);
         }
     }
 }

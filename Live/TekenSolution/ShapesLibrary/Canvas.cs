@@ -8,14 +8,12 @@ namespace ShapesLibrary
         public void Add(Figuur figure)
         {
             figuren.Add(figure);
-            Refresh();
         }
-        public void Refresh()
+        public void Refresh(IDevice device)
         {
-            Console.Clear();
             foreach(Figuur fig in figuren)
             {
-                fig.Teken();
+                fig.Teken(device);
             }
         }
     }

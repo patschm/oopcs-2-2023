@@ -8,6 +8,6 @@ namespace ShapesLibrary
         public int Lijndikte { get; set; }
         public Color Kleur { get; set; }
 
-        public abstract void Teken();
+        public abstract void Teken(IDevice device);
     }
 }
